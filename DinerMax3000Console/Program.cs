@@ -6,11 +6,8 @@
         {
             Menu summerMenu = new Menu();
             summerMenu.Name = "Summer menu";
-            MenuItem salmon = new MenuItem();
-            salmon.Title = "Salmon";
-            salmon.Description = "Fresh Fish";
-            salmon.Price = 25.50;
-            summerMenu.items.Add(salmon);
+            summerMenu.AddMenuItem("Salmon", "Garlic Butter Fresh Salmon", 25.50);
+            summerMenu.AddMenuItem("Taco", "Salty Chips", 10);
         }
     }
 }
