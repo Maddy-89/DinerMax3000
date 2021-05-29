@@ -1,4 +1,6 @@
-﻿namespace DinerMax3000Console
+﻿using System;
+
+namespace DinerMax3000Console
 {
     class Program
     {
@@ -25,6 +27,9 @@
             {
                 hungryGuestOrder.items.Add(currentItem);
             }
+
+            Console.WriteLine("The total is:" + hungryGuestOrder.Total);
+            Console.ReadKey();
         }
     }
 }
