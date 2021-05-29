@@ -29,6 +29,15 @@ namespace DinerMax3000Console
             }
 
             Console.WriteLine("The total is:" + hungryGuestOrder.Total);
+
+            try
+            {
+                outsideDrinks.AddMenuItem("Free Me?", "You get nothing", 0);
+            }
+            catch (Exception thrownException)
+            {
+                Console.WriteLine(value: thrownException.Message);
+            }
             Console.ReadKey();
         }
     }
