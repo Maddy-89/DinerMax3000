@@ -363,8 +363,7 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # 
-/DinerMax3000BusinessLayer/Properties/Settings.Designer.cs
-/DinerMax3000BusinessLayer/Properties/Settings.settings
+/DinerMax3000BusinessLayer/Properties
 /DinerMax3000BusinessLayer/app.config
 /DinerMax3000Console/app.config
 /DinerMax3000WPFClient/App.config
