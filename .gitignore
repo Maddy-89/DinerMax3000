@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# 
+/DinerMax3000BusinessLayer/Properties/Settings.Designer.cs
+/DinerMax3000BusinessLayer/Properties/Settings.settings
+/DinerMax3000BusinessLayer/app.config
+/DinerMax3000Console/app.config
