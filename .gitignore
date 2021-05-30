@@ -367,3 +367,5 @@ FodyWeavers.xsd
 /DinerMax3000BusinessLayer/Properties/Settings.settings
 /DinerMax3000BusinessLayer/app.config
 /DinerMax3000Console/app.config
+/DinerMax3000WPFClient/App.config
+/DinerMax3000WPFClient/Properties
