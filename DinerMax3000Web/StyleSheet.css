@@ -1,0 +1,15 @@
+﻿body {
+    background-color:lightblue;
+}
+.Navigation {
+    padding: 30px;
+    margin: 10px 0px 10px 0px;
+    font-size:x-large;
+}
+.MenuGridViews .MenuGridViews td .MenuGridViews th {
+    border: none;
+}
+.MenuHeadings {
+    color:#FF0000;
+    font-size:x-large;
+}
