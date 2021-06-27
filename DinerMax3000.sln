@@ -9,6 +9,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinerMax3000BusinessLayer",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinerMax3000WPFClient", "DinerMax3000WPFClient\DinerMax3000WPFClient.csproj", "{043522B5-E01A-46F0-B174-68964B78A0F6}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DinerMax3000Web", "DinerMax3000Web\", "{DCAB17A2-B002-43C1-95D9-98AA07201B91}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{e5d7c401-44ea-4914-9680-cc0a3e7bf2db}|DinerMax3000BusinessLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56336"
+		Debug.AspNetCompiler.PhysicalPath = "DinerMax3000Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56336\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56336"
+		Release.AspNetCompiler.PhysicalPath = "DinerMax3000Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56336\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56336"
+		SlnRelativePath = "DinerMax3000Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +50,10 @@ Global
 		{043522B5-E01A-46F0-B174-68964B78A0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{043522B5-E01A-46F0-B174-68964B78A0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{043522B5-E01A-46F0-B174-68964B78A0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAB17A2-B002-43C1-95D9-98AA07201B91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAB17A2-B002-43C1-95D9-98AA07201B91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAB17A2-B002-43C1-95D9-98AA07201B91}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAB17A2-B002-43C1-95D9-98AA07201B91}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

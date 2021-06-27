@@ -368,3 +368,6 @@ FodyWeavers.xsd
 /DinerMax3000Console/app.config
 /DinerMax3000WPFClient/App.config
 /DinerMax3000WPFClient/Properties
+/DinerMax3000Web/packages.config
+/DinerMax3000Web/Web.config
+/DinerMax3000Web/Web.Debug.config
